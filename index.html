@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;500&display=swap" rel="stylesheet">
+    <title>Interactive rating component</title>
+</head>
+<body>
+    <main>
+        <article class="rating show" id="toHide">
+            <div class="rating__icon-container">
+                <img class="icon" src="images/icon-star.svg" />
+            </div>
+            <div class="rating__component">
+                <h1 class="rating-title">How did we do ?</h1>
+                <p class="rating-description">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            </div>
+            <ul>
+                <li><button class="btn-rating" id="btn-1" value="1">1</button></li>
+                <li><button class="btn-rating" id="btn-2" value="2">2</button></li>
+                <li><button class="btn-rating" id="btn-3" value="3">3</button></li>
+                <li><button class="btn-rating" id="btn-4" value="4">4</button></li>
+                <li><button class="btn-rating" id="btn-5" value="5">5</button></li>
+            </ul>
+            <button id="btn-submit">Submit</button>
+        </article> 
+        <article class="thank hide" id="toShow">
+            <img class="thank__img" src="images/illustration-thank-you.svg" />
+            <div class="thank__component">
+                <h2 id="thank-rating"></h2>
+                <h1 class="thank-title">Thank you!</h1>
+                <p class="thank-description">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+            </div>
+        </article>
+    </main>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
