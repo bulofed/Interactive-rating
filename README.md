@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/fully-fonctionable-page-1hmWE9mDNA](https://www.frontendmentor.io/solutions/fully-fonctionable-page-1hmWE9mDNA)
+- Live Site URL: [https://bulofed.github.io/interactive-rating/](https://bulofed.github.io/interactive-rating/)
 
 ## My process
 
